@@ -5,15 +5,15 @@ This will include devices that often uses payload.bin files for update. This doe
 ---
 
 # Usage
-1. Download "filename" (RAW) or Clone the repo
-2. CD into the folder where the downloaded "file" or cloned folder is located.
-3. Run the script from a terminal with powershell by running `.\filename.ps1`
+1. Download "Update-Firmware.ps1" (RAW) or Clone the repo
+2. CD into the folder where the downloaded script file or into the cloned folder.
+3. Run the script from a terminal in the location where the file is located with powershell by running `.\Update-Firmware.ps1`
 4. Follow the on-screen instructions.
 
 ---
 
 # WIP
-This was made fast as I got bored of typing the same commands over and over. But wanted some checks so that you can't flash a boot image to the dtbo partition and so on. The checks a compleatly rudementary and only checks the filename to have the correct partition in the name and that it is a .img file. so it does not check if its for the correct device or so on. So as a warning do be careful with what you do with your phone and by using this script you accept the risk of doing so.
+This was made fast as I got bored of typing the same commands over and over. But wanted some checks so that you can't flash a boot image to the dtbo partition and so on. The checks a compleatly rudimentary and only checks the filename to have the correct partition in the name and that it is a .img file. so it does not check if its for the correct device or so on. So as a warning do be careful with what you do with your phone and by using this script you accept the risk of doing so.
 
 ---
 
